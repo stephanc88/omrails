@@ -1,0 +1,37 @@
+$navbarBackgroundHighlight: #9FBCBF;
+$navbarBackground: #9FBCBF;
+$bodyBackground: #D5FBFF;
+$navbarLinkColor: #2F3738;
+$navbarLinkColorHover: #647678;
+
+
+@import 'bootstrap';
+
+@import 'bootstrap-responsive';
+
+body {
+	padding-top:60px;
+	color:#2F3738;
+}
+
+.bordered{
+	border-color:#59D8E6;
+	border-style:solid;
+	border-width:2px;
+	background-color:#9FBCBF;
+}
+
+#portrait{
+	background:url(http://m.c.lnkd.licdn.com/mpr/pub/image-JLwJ9fTJBTv3Ur9xL18X4Ph00EYm3dF9JL8ERTbH0kNdt8RVJLwEuX6J0rLstUT4Tgar/stephan-campbell.jpg) no-repeat center center;
+	height:100px;
+}
+
+
+/*
+.navbar-inner {
+  background-color: #9FBCBF; 
+  background-image: none;
+  background-repeat: no-repeat;
+  color:#2F3738;
+  filter: none;
+}*/
